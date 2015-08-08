@@ -13,6 +13,9 @@
 		34A672991B75F1BC00E73886 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A672981B75F1BC00E73886 /* Images.xcassets */; };
 		34A6729C1B75F1BC00E73886 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A6729A1B75F1BC00E73886 /* LaunchScreen.xib */; };
 		34A672A81B75F1BC00E73886 /* save_my_location_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A672A71B75F1BC00E73886 /* save_my_location_appTests.swift */; };
+		34A672B21B75F1E100E73886 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A672B11B75F1E100E73886 /* MapKit.framework */; };
+		34A672B41B75F3D800E73886 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A672B31B75F3D800E73886 /* TableViewController.swift */; };
+		34A672B61B75FB3400E73886 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A672B51B75FB3400E73886 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		34A672A11B75F1BC00E73886 /* save my location appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "save my location appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A672A61B75F1BC00E73886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34A672A71B75F1BC00E73886 /* save_my_location_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = save_my_location_appTests.swift; sourceTree = "<group>"; };
+		34A672B11B75F1E100E73886 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		34A672B31B75F3D800E73886 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		34A672B51B75FB3400E73886 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A672B61B75FB3400E73886 /* CoreLocation.framework in Frameworks */,
+				34A672B21B75F1E100E73886 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +67,8 @@
 		34A672831B75F1BC00E73886 = {
 			isa = PBXGroup;
 			children = (
+				34A672B51B75FB3400E73886 /* CoreLocation.framework */,
+				34A672B11B75F1E100E73886 /* MapKit.framework */,
 				34A6728E1B75F1BC00E73886 /* save my location app */,
 				34A672A41B75F1BC00E73886 /* save my location appTests */,
 				34A6728D1B75F1BC00E73886 /* Products */,
@@ -79,6 +89,7 @@
 			children = (
 				34A672911B75F1BC00E73886 /* AppDelegate.swift */,
 				34A672931B75F1BC00E73886 /* ViewController.swift */,
+				34A672B31B75F3D800E73886 /* TableViewController.swift */,
 				34A672951B75F1BC00E73886 /* Main.storyboard */,
 				34A672981B75F1BC00E73886 /* Images.xcassets */,
 				34A6729A1B75F1BC00E73886 /* LaunchScreen.xib */,
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A672941B75F1BC00E73886 /* ViewController.swift in Sources */,
+				34A672B41B75F3D800E73886 /* TableViewController.swift in Sources */,
 				34A672921B75F1BC00E73886 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
